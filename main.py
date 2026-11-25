@@ -1,5 +1,5 @@
-from fastapi import FASTAPI, HTTPException
-app = FASTAPI()
+from fastapi import FastAPI, HTTPException
+app = FastAPI()
 
 @app.get("/")
 def read_root():
